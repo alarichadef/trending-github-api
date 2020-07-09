@@ -1,0 +1,31 @@
+{
+  "name": "trending-github-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+    "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alarichadef/trending-github-api.git"
+  },
+  "author": "Alaric HADEF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alarichadef/trending-github-api/issues"
+  },
+  "homepage": "https://github.com/alarichadef/trending-github-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-cache": "^5.1.1",
+    "node-fetch": "^2.6.0"
+  }
+}
